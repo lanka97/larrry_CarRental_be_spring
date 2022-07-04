@@ -1,8 +1,7 @@
 package com.larry.payload.request;
 
-import java.util.Set;
-
 import javax.validation.constraints.*;
+import java.util.Set;
 
 public class SignupRequest {
   @NotBlank

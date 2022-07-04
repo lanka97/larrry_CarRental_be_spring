@@ -1,7 +1,7 @@
 package com.larry.models;
 
 public enum ERole {
-  ROLE_USER,
-  ROLE_MODERATOR,
-  ROLE_ADMIN
+  APP_USER,
+  PORTAL_USER,
+  ADMIN
 }
