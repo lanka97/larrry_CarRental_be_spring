@@ -23,7 +23,7 @@ public class UserController {
   }
 
   @GetMapping("/user")
-  @PreAuthorize("hasRole('USER') or hasRole('MODERATOR') or hasRole('ADMIN')")
+  @PreAuthorize("hasAuthority('PORTAL_USER') or hasAuthority('APP_USER') or hasAuthority('ADMIN')")
   public String userAccess() {
     return "User Content.";
   }

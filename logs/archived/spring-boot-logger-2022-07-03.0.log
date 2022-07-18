@@ -1,0 +1,35 @@
+2022-07-03 17:10:37,248 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 6.2.3.Final
+2022-07-03 17:10:37,259 INFO org.springframework.boot.StartupInfoLogger [main] Starting LarryApplication using Java 18.0.1.1 on DESKTOP-T7HC7S8 with PID 10808 (C:\Users\aaa\Desktop\Larry 1.0\Larry\lattry_be_spring\target\classes started by aaa in C:\Users\aaa\Desktop\Larry 1.0\Larry\lattry_be_spring)
+2022-07-03 17:10:37,259 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.7.0, Spring v5.3.20
+2022-07-03 17:10:37,259 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-07-03 17:10:38,284 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-07-03 17:10:38,347 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 54 ms. Found 3 JPA repository interfaces.
+2022-07-03 17:10:39,113 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2022-07-03 17:10:39,113 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2022-07-03 17:10:39,113 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2022-07-03 17:10:39,113 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.63]
+2022-07-03 17:10:39,238 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2022-07-03 17:10:39,238 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1923 ms
+2022-07-03 17:10:39,456 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-07-03 17:10:39,534 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.6.9.Final
+2022-07-03 17:10:39,781 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-07-03 17:10:39,875 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2022-07-03 17:10:40,046 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2022-07-03 17:10:40,062 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2022-07-03 17:10:40,722 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-07-03 17:10:40,738 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-07-03 17:10:41,097 DEBUG org.springframework.web.filter.GenericFilterBean [main] Filter 'authenticationJwtTokenFilter' configured for use
+2022-07-03 17:10:41,550 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-07-03 17:10:41,925 INFO org.springframework.security.web.DefaultSecurityFilterChain [main] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@2cdcedef, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@43778d6d, org.springframework.security.web.context.SecurityContextPersistenceFilter@258291de, org.springframework.security.web.header.HeaderWriterFilter@44ba9f25, org.springframework.web.filter.CorsFilter@44ac94c2, org.springframework.security.web.authentication.logout.LogoutFilter@237b54bc, com.larry.security.jwt.AuthTokenFilter@65cc3902, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@3ae91bcc, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@679886ad, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@19b33b0d, org.springframework.security.web.session.SessionManagementFilter@93c66ef, org.springframework.security.web.access.ExceptionTranslationFilter@6c2a33af, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@4cd7128]
+2022-07-03 17:10:42,112 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2022-07-03 17:10:42,128 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2022-07-03 17:10:42,378 INFO org.springframework.boot.StartupInfoLogger [main] Started LarryApplication in 5.602 seconds (JVM running for 6.034)
+2022-07-03 17:10:53,276 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-07-03 17:10:53,276 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2022-07-03 17:10:53,277 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 0 ms
+2022-07-03 17:10:53,322 ERROR com.larry.controllers.UserController [http-nio-8080-exec-1] err
+2022-07-03 17:10:53,323 TRACE com.larry.controllers.UserController [http-nio-8080-exec-1] trace
+2022-07-03 17:10:53,392 ERROR com.larry.security.jwt.AuthEntryPointJwt [http-nio-8080-exec-2] Unauthorized error: Full authentication is required to access this resource
+2022-07-03 17:11:02,841 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-07-03 17:11:02,841 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2022-07-03 17:11:02,856 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.

@@ -1,7 +1,8 @@
 package com.larry.models;
 
-import javax.persistence.*;
+import com.fasterxml.jackson.annotation.JsonIgnore;
 
+import javax.persistence.*;
 @Entity
 @Table(name = "rental_car")
 public class RentalCar {
@@ -9,6 +10,8 @@ public class RentalCar {
     @GeneratedValue(strategy = GenerationType.AUTO)
     @Column(name = "rental_car_id", nullable = false)
     private Integer id;
+
+    @JsonIgnore
     @ManyToOne
     @JoinColumn(name = "user_id")
     private User owner;
@@ -206,7 +209,7 @@ public class RentalCar {
     private String additional_desp;
 
     @Column
-    private boolean allow_renting;
+    private Boolean allow_renting;
 
     public User getUser() {
         return owner;
